@@ -2,8 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/vendor_dashboard"
             android:title="My DashBoard" />
         <item
+            android:id="@+id/vendor_profile"
             android:title="My Profile" />
 
     </group>

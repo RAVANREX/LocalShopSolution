@@ -7,7 +7,7 @@
     android:padding="10dp"
     android:background="@drawable/bgheader"
     android:verticalScrollbarPosition="left"
-    tools:context=".vendor.Vendor_profile"
+    tools:context=".vendor.Vendor_Fragment_Profile"
     android:visibility="visible">
 
     <LinearLayout

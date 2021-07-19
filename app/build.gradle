@@ -26,7 +26,33 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+    sourceSets {
+        main {
+            res.srcDirs =
+                    [
+                            'src/main/res',
+                            'src/main/res/layouts/layout',
+                            'src/main/res/layouts/main_layouts/layout',
+                            'src/main/res/layouts/customer_layout/layout',
+                            'src/main/res/layouts/vendor_layout/layout',
+                    ]
+        }
+    }
 }
+//def getLayoutList(path) {
+//    File file = new File(path)
+//    def throwAway = file.path.split("/")[0]
+//    def newPath = file.path.substring(throwAway.length() + 1)
+//    def array = file.list().collect {
+//        "${newPath}/${it}"
+//    }
+//    def res="src/main/res";
+//    array.push(res);
+//    return array
+//}
+
+
 
 dependencies {
 
@@ -40,6 +66,7 @@ dependencies {
     implementation 'androidx.navigation:navigation-ui:2.3.3'
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.0'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'

@@ -14,7 +14,7 @@ import android.widget.TextView;
 import com.example.mymonohari.vendor.Vendor_DashBoard;
 
 public class MainActivity extends AppCompatActivity {
-    private static int DELAY_SCREEN=3000;
+    private static int DELAY_SCREEN=0;
     //Variable
     Animation fade_anim;
     TextView logoView;
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
-        //Animation
+        Animation
         fade_anim = AnimationUtils.loadAnimation(this, R.anim.fade_anim);
         //HOOKs
         logoView = findViewById(R.id.logoView);
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent= new Intent(MainActivity.this, Vendor_DashBoard.class);
+                Intent intent= new Intent(MainActivity.this, Dashboard.class);
                 startActivity(intent);
                 finish();
             }

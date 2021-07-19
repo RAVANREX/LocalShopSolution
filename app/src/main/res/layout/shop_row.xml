@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="110dp"
+    android:background="@drawable/shop_row_bg"
+
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="7.5dp"
+    android:layout_marginBottom="7.5dp"
+    android:weightSum="100">
+    <ImageView
+        android:id="@+id/shop_dp"
+        android:layout_margin="15dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="33.3"
+        android:src="@drawable/groceryimg"
+        android:scaleType="centerCrop"
+        android:background="@drawable/shop_profile_bg"
+        android:elevation="15dp"
+        android:outlineSpotShadowColor="@color/black"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="66.6"
+        android:layout_margin="15dp">
+        <TextView
+            android:id="@+id/shop_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name of the Shop"
+            android:textSize="20sp"
+
+            android:textStyle="bold"
+            android:textColor="#703FB5"
+            android:elevation="15dp"/>
+        <TextView
+            android:id="@+id/shop_owner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Owner's Name"
+            android:textStyle="bold"
+            android:elevation="15dp"
+            android:textColor="#703FB5"/>
+        <TextView
+            android:id="@+id/shop_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Distance From Delivery Location"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:elevation="15dp"
+            android:textColor="#703FB5"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

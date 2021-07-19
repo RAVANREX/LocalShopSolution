@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:elevation="4dp"
+    app:cardUseCompatPadding="true"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@drawable/vendor_rv_bg"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/vendor_rv_bg"
+            android:src="@drawable/ic_launcher_background"
+            android:id="@+id/img1"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/img1"
+            android:layout_marginStart="5dp"
+
+
+            android:text="The Grocery Shop"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/img1"
+            android:layout_marginStart="5dp"
+
+
+            android:layout_below="@id/header"
+            android:textSize="16sp"
+            android:textColor="@color/cardview_dark_background"
+            android:text="The name of Owner" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

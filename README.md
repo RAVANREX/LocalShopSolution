@@ -11,10 +11,24 @@ In this pandemic, when all people have to maintain social distancing and perform
 # Job is done here
 Creating The Dashboard
 
+
+<table>
+<tr>
 <img src="ScreenShots/Screenshot_1.png" alt="drawing" width="150"/>
 <img src="ScreenShots/Screenshot_2.png" alt="drawing" width="150"/>
 <img src="ScreenShots/Screenshot_3.png" alt="drawing" width="150"/>
+  </tr>
+  <tr>
 <img src="ScreenShots/Screenshot_4.png" alt="drawing" width="150"/>
 <img src="ScreenShots/Screenshot_5.png" alt="drawing" width="150"/>
 <img src="ScreenShots/Screenshot_6.png" alt="drawing" width="150"/>
+</tr>
+
+<tr>
+<td>Vendor Navigation Bar<td>
+<td>Vendor DashBoard <td>
+</tr>
+
+</table>
+
 

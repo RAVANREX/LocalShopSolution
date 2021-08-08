@@ -14,8 +14,8 @@ Creating The Dashboard
 
 <table>
 <tr>
-<td><img src="ScreenShots/Screenshot_1.png" alt="drawing" width="300"/></td>
-<td><img src="ScreenShots/Screenshot_2.png" alt="drawing" width="300"/></td>
+<td><img src="ScreenShots/Screenshot_1.png" alt="drawing" width="400"/></td>
+<td><img src="ScreenShots/Screenshot_2.png" alt="drawing" width="400"/></td>
 
   </tr>
   <tr>
@@ -23,10 +23,16 @@ Creating The Dashboard
 <td>Vendor DashBoard </td>
 </tr>
   <tr>
-<td><img src="ScreenShots/Screenshot_3.png" alt="drawing" width="300"/></td>
-<td><img src="ScreenShots/Screenshot_4.png" alt="drawing" width="300"/></td>
-<td><img src="ScreenShots/Screenshot_5.png" alt="drawing" width="300"/></td>
-<td><img src="ScreenShots/Screenshot_6.png" alt="drawing" width="300"/></td>
+<td><img src="ScreenShots/Screenshot_3.png" alt="drawing" width="400"/></td>
+<td><img src="ScreenShots/Screenshot_4.png" alt="drawing" width="400"/></td>
+<td><img src="ScreenShots/Screenshot_5.png" alt="drawing" width="400"/></td>
+<td><img src="ScreenShots/Screenshot_6.png" alt="drawing" width="400"/></td>
+</tr>
+  <tr>
+<td>customer Navigation Bar</td>
+<td>customer DashBoard </td>
+<td>customer DashBoard</td>
+<td>customer Login </td>
 </tr>
 
 

@@ -14,18 +14,19 @@ Creating The Dashboard
 
 <table>
 <tr>
-<td><img src="ScreenShots/Screenshot_1.png" alt="drawing" width="200"/></td>
-<td><img src="ScreenShots/Screenshot_2.png" alt="drawing" width="150"/></td>
-<td><img src="ScreenShots/Screenshot_3.png" alt="drawing" width="150"/></td>
+<td><img src="ScreenShots/Screenshot_1.png" alt="drawing" width="300"/></td>
+<td><img src="ScreenShots/Screenshot_2.png" alt="drawing" width="300"/></td>
+
   </tr>
   <tr>
 <td>Vendor Navigation Bar</td>
 <td>Vendor DashBoard </td>
 </tr>
   <tr>
-<td><img src="ScreenShots/Screenshot_4.png" alt="drawing" width="150"/></td>
-<td><img src="ScreenShots/Screenshot_5.png" alt="drawing" width="150"/></td>
-<td><img src="ScreenShots/Screenshot_6.png" alt="drawing" width="150"/></td>
+<td><img src="ScreenShots/Screenshot_3.png" alt="drawing" width="300"/></td>
+<td><img src="ScreenShots/Screenshot_4.png" alt="drawing" width="300"/></td>
+<td><img src="ScreenShots/Screenshot_5.png" alt="drawing" width="300"/></td>
+<td><img src="ScreenShots/Screenshot_6.png" alt="drawing" width="300"/></td>
 </tr>
 
 
